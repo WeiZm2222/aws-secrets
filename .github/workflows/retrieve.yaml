@@ -52,7 +52,7 @@ jobs:
 
       - name: Get parameter object
         run: |
-          zmw_app=$(aws ssm get-parameter --name zmw_app --query Parameter.Value --output text)
-          echo "ZMW details : $zmw_app" 
+          zmw_print_app=$(aws ssm get-parameter --name zmw_app --query Parameter.Value --output text)
+          echo "ZMW details : $zmw_print_app" 
 
 
