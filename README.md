@@ -1,3 +1,14 @@
+# Assignment 3.13 Managing Secrets
+
+Secrets: Created two key pair values. 
+SCTPCohort - Three
+SCTPSubject - Cloud
+
+Parameters: 
+Parameter Name: zmw_app 
+Parameter Value: mysql_db_webapp
+
+
 # Managing secrets and parameters in AWS
 
 You may be wondering how you can store and retrieve both secrets and variables in AWS which may be necessary in your CI/CD pipelines.
